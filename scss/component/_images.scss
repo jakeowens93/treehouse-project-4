@@ -1,17 +1,15 @@
 
 .img-avatar {
-    @include img-basic;
     @include img-margin;
     max-height: 100%;
-  }
-  
-  .img-frame {
-    @include img-basic;
+}
+.img{
+  &-frame {
     @include img-margin;
     padding: 13px;
     border: 1px solid #ccc;
   }
-  
-  .img-logo {
+  &-logo {
     @include img-basic;
   }
+}
