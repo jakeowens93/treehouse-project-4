@@ -496,6 +496,10 @@ a {
   border-radius: 5px;
 }
 
+.btn:hover {
+  background-color: #9cecfd;
+}
+
 .default {
   background-color: #51ddfc;
 }
