@@ -494,6 +494,8 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  -webkit-transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
 .btn:hover {
@@ -541,6 +543,31 @@ a {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img .img-avatar {
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-frame {
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 768px) {
